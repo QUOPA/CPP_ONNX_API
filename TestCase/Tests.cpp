@@ -352,8 +352,8 @@ int main()
 	//ret = test1::Test(Net_Path);
 	//ret = test2::Test(Net_Path);
 	//ret = ModelInfo::Test(Net_Path);
-	//ret = TypeTest::Test(Net_Path);
-	ret = TrainingInfo::Test(Net_Path);
+	ret = TypeTest::Test(Net_Path);
+	//ret = TrainingInfo::Test(Net_Path);
 
 	return ret;
 }
